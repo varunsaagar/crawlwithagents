@@ -77,7 +77,7 @@ class MetadataAnalyzerTool(BaseTool):
 if __name__ == "__main__":
     # Test the WebScraperTool
     scraper_tool = WebScraperTool()
-    url = "https://www.asianetnews.com/kerala-news/kseb-will-restore-power-which-cut-after-office-trespass-in-thiruvambady-sg8rde"
+    url = "https://ollama.com/blog/gemma2"  
     scraped_data = scraper_tool.run(url)
     print("Scraped Data:", json.dumps(scraped_data, indent=2))
 

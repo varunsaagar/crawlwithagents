@@ -4,7 +4,7 @@ This project provides tools for web scraping, data cleaning, and metadata analys
 
 ## Features
 
-- Web scraping with AI-powered content extraction
+- Web scraping with crawl4ai using multiagent agents for content extraction
 - Data cleaning for extracted metadata
 - Metadata analysis for SEO insights
 

@@ -28,21 +28,21 @@ This project provides tools for web scraping, data cleaning, and metadata analys
 
 2. Create and activate a virtual environment:
 
-python -m venv venv source venv/bin/activate 
+```python -m venv venv source venv/bin/activate```
 
-On Windows, use venv\Scripts\activate.bat
+On Windows, use ```venv\Scripts\activate.bat```
 
-On Mac, use venv/bin/activate
+On Mac, use ```venv/bin/activate```
 
-On Linux, use source venv/bin/activate
+On Linux, use ```source venv/bin/activate```
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 4. Run the main script:
 
-python crawler.py 
+```python crawler.py```
  
 or
 
@@ -52,21 +52,21 @@ The tools can be executed from the command line. Here's how to run each tool:
 
 This tool scrapes the title, description, and keywords from a specified URL.
 
-bash python -m praisonai_tools.tools.web_scraper_tool.web_scraper_tool --url "https://example.com"
+```bash python -m praisonai_tools.tools.web_scraper_tool.web_scraper_tool --url "https://example.com"```
 
 
 ### Data Cleaner Tool
 
 This tool cleans and formats the raw metadata extracted by the Web Scraper Tool.
 
-bash python -m praisonai_tools.tools.data_cleaner_tool --input "path/to/raw_data.json"
+```bash python -m praisonai_tools.tools.data_cleaner_tool --input "path/to/raw_data.json"```
 
 
 ### Metadata Analyzer Tool
 
 This tool analyzes the cleaned metadata to provide insights such as title length, description length, and keyword analysis.
 
-bash python -m praisonai_tools.tools.metadata_analyzer_tool --input "path/to/cleaned_data.json"
+```bash python -m praisonai_tools.tools.metadata_analyzer_tool --input "path/to/cleaned_data.json"```
 
 
 ## Configuration

@@ -1,0 +1,38 @@
+framework: crewai
+topic: extract model Title, Description, and Keywords from websites
+roles:
+  web_scraper:
+    backstory: An expert in web scraping with a deep understanding of extracting structured
+      data from online sources, particularly metadata like titles, descriptions, and keywords.
+    goal: Gather Title, Description, and Keywords from various websites
+    role: Web Scraper
+    tasks:
+      scrape_website_metadata:
+        description: Scrape title, description, and keywords from the provided list of websites.
+        expected_output: JSON containing website metadata.
+    tools:
+    - 'WebScraperTool'
+  data_cleaner:
+    backstory: Specialist in data cleaning, ensuring that all collected metadata is accurate
+      and properly formatted.
+    goal: Clean and organize the scraped website metadata
+    role: Data Cleaner
+    tasks:
+      clean_metadata:
+        description: Process the scraped data to remove any inconsistencies and ensure proper formatting.
+        expected_output: Cleaned and organized JSON file with website metadata.
+    tools:
+    - 'DataCleanerTool'
+  data_analyzer:
+    backstory: Data analysis expert focused on deriving actionable insights from structured
+      website metadata.
+    goal: Analyze the cleaned metadata to extract insights
+    role: Data Analyzer
+    tasks:
+      analyze_metadata:
+        description: Analyze the cleaned metadata to extract trends, patterns, and insights
+          on website content and SEO practices.
+        expected_output: Detailed report summarizing metadata trends and insights.
+    tools:
+    - 'MetadataAnalyzerTool'
+dependencies: []

@@ -30,11 +30,11 @@ This project provides tools for web scraping, data cleaning, and metadata analys
 
 python -m venv venv source venv/bin/activate 
 
-# On Windows, use venv\Scripts\activate.bat
+On Windows, use venv\Scripts\activate.bat
 
-# On Mac, use venv/bin/activate
+On Mac, use venv/bin/activate
 
-# On Linux, use source venv/bin/activate
+On Linux, use source venv/bin/activate
 
 3. Install dependencies:
 

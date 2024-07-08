@@ -20,6 +20,7 @@ This project provides tools for web scraping, data cleaning, and metadata analys
 - crawl4ai
 - pydantic
 - praisonai_tools
+- ollama 
 
 ## Installation
 

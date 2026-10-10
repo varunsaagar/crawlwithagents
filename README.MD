@@ -1,4 +1,4 @@
-# Web Scraper and Metadata Analyzer
+# Web Scraper and Metadata Analyzer kj
 
 This project provides tools for web scraping, data cleaning, and metadata analysis using Ollama with qwen2:1.5b and Crawl4AI. It enables efficient content extraction techniques.
 
